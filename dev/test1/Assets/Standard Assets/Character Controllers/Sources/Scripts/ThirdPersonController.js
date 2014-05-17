@@ -2,6 +2,8 @@
 // Require a character controller to be attached to the same game object
 @script RequireComponent(CharacterController)
 
+public var camara : Camera;
+
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
@@ -126,7 +128,7 @@ public var jumpPoseAnimation : AnimationClip;
 
 function UpdateSmoothedMovementDirection ()
 {
-	var cameraTransform = Camera.main.transform;
+	var cameraTransform = camara.transform;
 	var grounded = IsGrounded();
 	
 	// Forward vector relative to the camera along the x-z plane	
