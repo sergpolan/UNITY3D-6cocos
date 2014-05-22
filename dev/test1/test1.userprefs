@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Interfaz.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Fuego.js">
     <Files>
-      <File FileName="Assets\Scripts\Interfaz.js" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\Fuego.js" Line="31" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
