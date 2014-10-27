@@ -17,6 +17,8 @@ public var landAnimationSpeed : float = 1.0;
 
 private var _animation : Animation;
 
+var oilCount : int;
+
 enum CharacterState {
 	Idle = 0,
 	Walking = 1,
@@ -439,4 +441,17 @@ function Reset ()
 {
 	gameObject.tag = "Player";
 }
+
+function OnGUI ()
+{
+	GUI.Label(Rect (1050, 60, 100,20),	oilCount.ToString());
+}
+
+function OnTriggerEnter (other : Collider) {
+		GUI.enabled = false;
+		Destroy(other.gameObject);
+		oilCount++;
+		GUI.enabled = true;
+		Debug.Log("El numero de oils conseguidas es : " + oilCount);
+	}
 
