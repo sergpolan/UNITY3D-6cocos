@@ -60,8 +60,8 @@
      <Compile Include="Assets\BaseMale\Scripts\infoText.js" />
      <Compile Include="Assets\BaseMale\Scripts\shadow.js" />
      <Compile Include="Assets\Scripts\EnemyFollow.js" />
-     <Compile Include="Assets\Scripts\PruebaF.js" />
      <Compile Include="Assets\Scripts\buttonAction.js" />
+     <Compile Include="Assets\Scripts\timer.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
