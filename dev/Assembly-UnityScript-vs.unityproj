@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{87224A2E-D7E0-70DB-BDCA-A51BA390841D}</ProjectGuid>
+	<ProjectGuid>{E92B8018-1316-84C4-3013-AD9AD415E77E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,19 +46,31 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonAnimationPause.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonClickFlash.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonHoverSetText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonPicker.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonPosition.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSetAnimation.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSetMaterial.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSize.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSwitchTexture.js" />
+     <Compile Include="Assets\BaseMale\Scripts\cameraViewObject.js" />
+     <Compile Include="Assets\BaseMale\Scripts\clearText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\infoText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\shadow.js" />
      <Compile Include="Assets\Scripts\EnemyFollow.js" />
-     <Compile Include="Assets\Scripts\HeroAnimationController.js" />
+     <Compile Include="Assets\Scripts\PruebaF.js" />
      <Compile Include="Assets\Scripts\buttonAction.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\HeroBoy\Documents\Readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/spolan/Documents/DEV_UNITY/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/spolan/Documents/GitHub/UNITY3D-6cocos/dev/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{1E895EAD-4FEA-5A5E-5B78-ACFB792A9292}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{08D77C26-A19A-B4D2-DA03-8DABA7EAA0AA}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
