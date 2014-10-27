@@ -1,0 +1,30 @@
+Initialize engine version: 4.5.1f3 (73cd57f80e3e)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     64 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\spolan\Documents\GitHub\UNITY3D-6cocos\dev\wipeout_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.108 seconds
+desktop: 1280x768 60Hz; virtual: 1280x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.478962 ms
+Please assign a target to the camera that has a ThirdPersonController script attached.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 300.
+Total: 1.438104 ms (FindLiveObjects: 0.043763 ms CreateObjectMapping: 0.022691 ms MarkObjects: 0.363476 ms  DeleteObjects: 0.049841 ms)
+
